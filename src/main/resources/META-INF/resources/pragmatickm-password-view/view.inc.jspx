@@ -41,7 +41,7 @@ Arguments:
 
 	<h1>Passwords in <ao:out value="${page.title}" /></h1>
 	<c:forEach var="passwordPage" items="${p:convertPageDagToList(page, 'meta')}">
-		<c:set var="passwords" value="${d:filterElements(passwordPage, 'com.pragmatickm.password.model.Password')}" />
+		<c:set var="passwords" value="${p:filterElements(passwordPage, 'com.pragmatickm.password.model.Password')}" />
 		<c:if test="${!empty passwords}">
 			<c:set var="hasHref" value="false" />
 			<c:set var="hasUsername" value="false" />
