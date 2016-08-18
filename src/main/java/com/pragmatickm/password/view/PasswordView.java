@@ -23,7 +23,9 @@
 package com.pragmatickm.password.view;
 
 import com.aoindustries.servlet.http.Dispatcher;
+import com.pragmatickm.password.model.Password;
 import com.semanticcms.core.model.Page;
+import com.semanticcms.core.servlet.PageUtils;
 import com.semanticcms.core.servlet.View;
 import java.io.IOException;
 import java.util.Collections;
@@ -55,6 +57,11 @@ public class PasswordView extends View {
 	@Override
 	public String getName() {
 		return VIEW_NAME;
+	}
+
+	@Override
+	public boolean isApplicable(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Page page) throws ServletException, IOException {
+		return PageUtils.hasElement(servletContext, request, response, page, Password.class, true);
 	}
 
 	@Override
