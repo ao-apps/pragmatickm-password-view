@@ -79,7 +79,7 @@ public class PasswordView extends View {
 	 * somehow actually published online.
 	 */
 	@Override
-	public boolean getAllowRobots(Page page) {
+	public boolean getAllowRobots(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Page page) {
 		//return !page.filterElements(Password.class).isEmpty();
 		return false;
 	}
