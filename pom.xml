@@ -36,6 +36,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<name>PragmaticKM Password View</name>
 	<url>https://pragmatickm.com/password/view/</url>
 	<description>SemanticCMS view of all passwords in the current page and all children.</description>
+	<inceptionYear>2013</inceptionYear>
 
 	<scm>
 		<!--
