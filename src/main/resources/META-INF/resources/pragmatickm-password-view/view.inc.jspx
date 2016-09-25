@@ -54,7 +54,7 @@ Arguments:
 				</c:if>
 			</c:forEach>
 			<h2><ao:a href="${passwordPage.pageRef}"><ao:out value="${passwordPage.title}" /></ao:a></h2>
-			<password:passwordTable header="" passwords="${passwords}" />
+			<password:passwordTable header="" passwords="#{passwords}" />
 		</c:if>
 	</c:forEach>
 </jsp:root>
