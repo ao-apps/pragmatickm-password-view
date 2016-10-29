@@ -3,6 +3,7 @@
 
 ## Project Links
 * [Project Home](https://pragmatickm.com/password/view/)
+* [Changelog](https://pragmatickm.com/password/view/changelog)
 * [API Docs](https://pragmatickm.com/password/view/apidocs/)
 * [Maven Repository](scpexe://private.cvs.aoindustries.com/var/maven2/pragmatickm)
 * [Git](ssh://private.cvs.aoindustries.com/var/git/pragmatickm-password-view)
