@@ -1,6 +1,6 @@
 /*
  * pragmatickm-password-view - SemanticCMS view of all passwords in the current page and all children.
- * Copyright (C) 2016  AO Industries, Inc.
+ * Copyright (C) 2016, 2017  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -24,9 +24,9 @@ package com.pragmatickm.password.view;
 
 import com.aoindustries.servlet.http.Dispatcher;
 import com.pragmatickm.password.model.Password;
+import com.semanticcms.core.controller.PageUtils;
 import com.semanticcms.core.model.Page;
-import com.semanticcms.core.servlet.PageUtils;
-import com.semanticcms.core.servlet.View;
+import com.semanticcms.core.renderer.html.View;
 import java.io.IOException;
 import java.util.Collections;
 import javax.servlet.ServletContext;
