@@ -40,7 +40,7 @@ along with pragmatickm-password-view.  If not, see <http://www.gnu.org/licenses 
 		<description.html><![CDATA[<a target="_top" href="https://semanticcms.com/">SemanticCMS</a> view of all passwords in the current page and all children.]]></description.html>
 	</properties>
 
-	<name>PragmaticKM 1 Password View</name>
+	<name>PragmaticKM Password View</name>
 	<url>https://pragmatickm.com/password/view/</url>
 	<description>SemanticCMS view of all passwords in the current page and all children.</description>
 	<inceptionYear>2013</inceptionYear>
