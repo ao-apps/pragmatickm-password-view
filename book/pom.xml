@@ -37,7 +37,7 @@ along with pragmatickm-password-view.  If not, see <http://www.gnu.org/licenses 
 		<documented.groupId>com.pragmatickm</documented.groupId><documented.artifactId>pragmatickm-password-view</documented.artifactId>
 		<documented.javaVersion>1.7</documented.javaVersion>
 		<documented.javac.link.javaApi>${javac.link.javaApi.jdk7}</documented.javac.link.javaApi>
-		<documented.name>PragmaticKM 2 Password View</documented.name>
+		<documented.name>PragmaticKM Password View²</documented.name>
 		<documented.shortTitle>View</documented.shortTitle>
 		<documented.url>https://pragmatickm.com/password/view/</documented.url>
 		<documented.description>SemanticCMS view of all passwords in the current page and all children.</documented.description>
@@ -91,7 +91,7 @@ along with pragmatickm-password-view.  If not, see <http://www.gnu.org/licenses 
 			<groupId>com.aoindustries</groupId><artifactId>ao-badges</artifactId><version>2.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>3.0.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>3.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>2.0.0-SNAPSHOT</version>
@@ -107,7 +107,7 @@ along with pragmatickm-password-view.  If not, see <http://www.gnu.org/licenses 
 		</dependency>
 		<!-- Dependency for dependencyversion-maven-plugin only -->
 		<dependency>
-			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-view</artifactId><version>1.3.4-validation-SNAPSHOT</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-view</artifactId><version>1.3.5-SNAPSHOT</version>
 			<type>pom</type>
 			<scope>provided</scope>
 			<optional>true</optional>
