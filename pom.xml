@@ -267,7 +267,7 @@ along with pragmatickm-password-view.  If not, see <http://www.gnu.org/licenses 
 			</dependency>
 			<!-- javaee-web-api-bom: <groupId>javax.servlet</groupId><artifactId>jstl</artifactId> -->
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-servlet</artifactId><version>1.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-servlet</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<!-- Runtime Transitive -->
 			<dependency>
