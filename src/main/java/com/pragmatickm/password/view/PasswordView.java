@@ -1,6 +1,6 @@
 /*
  * pragmatickm-password-view - SemanticCMS view of all passwords in the current page and all children.
- * Copyright (C) 2016, 2017, 2020  AO Industries, Inc.
+ * Copyright (C) 2016, 2017, 2020, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,7 +22,7 @@
  */
 package com.pragmatickm.password.view;
 
-import com.aoindustries.html.Html;
+import com.aoindustries.html.Document;
 import com.aoindustries.servlet.http.Dispatcher;
 import com.pragmatickm.password.model.Password;
 import com.semanticcms.core.controller.PageUtils;
@@ -104,7 +104,7 @@ public class PasswordView extends View {
 	}
 
 	@Override
-	public void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Html html, Page page) throws ServletException, IOException, SkipPageException {
+	public void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Document document, Page page) throws ServletException, IOException, SkipPageException {
 		Dispatcher.include(
 			servletContext,
 			JSPX_TARGET,
