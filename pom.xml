@@ -210,7 +210,7 @@ along with pragmatickm-password-view.  If not, see <http://www.gnu.org/licenses 
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-model</artifactId><version>1.4.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-taglib</artifactId><version>1.7.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-taglib</artifactId><version>1.7.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-model</artifactId><version>1.13.0${POST-SNAPSHOT}</version>
