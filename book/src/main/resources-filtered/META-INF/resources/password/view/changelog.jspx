@@ -256,7 +256,7 @@ along with pragmatickm-password-view.  If not, see <http://www.gnu.org/licenses 
 		>
 			<ul>
 				<li>Pulled passwords out of docs-taglib.</li>
-				<li>Passing args as <code><![CDATA[Map&lt;String,?&gt;]]></code> instead of forcing <code><![CDATA[Map&lt;String,Object&gt;]]></code></li>
+				<li>Passing args as <code><![CDATA[Map&lt;String, ?&gt;]]></code> instead of forcing <code><![CDATA[Map&lt;String, Object&gt;]]></code></li>
 				<li>Added modules.</li>
 			</ul>
 		</changelog:release>
