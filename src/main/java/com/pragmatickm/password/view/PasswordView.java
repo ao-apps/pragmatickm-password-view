@@ -43,7 +43,7 @@ import javax.servlet.jsp.SkipPageException;
 /**
  * View of all passwords in the current page and all children.
  */
-public class PasswordView extends View {
+public final class PasswordView extends View {
 
 	public static final String NAME = "passwords";
 
@@ -61,7 +61,9 @@ public class PasswordView extends View {
 		}
 	}
 
-	private PasswordView() {}
+	private PasswordView() {
+		// Do nothing
+	}
 
 	@Override
 	public Group getGroup() {
