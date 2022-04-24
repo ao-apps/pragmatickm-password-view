@@ -56,6 +56,7 @@ public final class PasswordView extends View {
     public void contextInitialized(ServletContextEvent event) {
       HtmlRenderer.getInstance(event.getServletContext()).addView(new PasswordView());
     }
+
     @Override
     public void contextDestroyed(ServletContextEvent event) {
       // Do nothing
@@ -109,11 +110,11 @@ public final class PasswordView extends View {
   @Override
   public <__ extends FlowContent<__>> void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, __ flow, Page page) throws ServletException, IOException, SkipPageException {
     Dispatcher.include(
-      servletContext,
-      JSPX_TARGET,
-      request,
-      response,
-      Collections.singletonMap("page", page)
+        servletContext,
+        JSPX_TARGET,
+        request,
+        response,
+        Collections.singletonMap("page", page)
     );
   }
 }
