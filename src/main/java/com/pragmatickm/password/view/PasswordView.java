@@ -50,6 +50,9 @@ public final class PasswordView extends View {
 
   private static final String JSPX_TARGET = "/pragmatickm-password-view/view.inc.jspx";
 
+  /**
+   * Registers the "{@link #NAME}" view in {@link HtmlRenderer}.
+   */
   @WebListener("Registers the \"" + NAME + "\" view in HtmlRenderer.")
   public static class Initializer implements ServletContextListener {
     @Override
@@ -108,7 +111,13 @@ public final class PasswordView extends View {
   }
 
   @Override
-  public <__ extends FlowContent<__>> void doView(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, __ flow, Page page) throws ServletException, IOException, SkipPageException {
+  public <__ extends FlowContent<__>> void doView(
+      ServletContext servletContext,
+      HttpServletRequest request,
+      HttpServletResponse response,
+      __ flow,
+      Page page
+  ) throws ServletException, IOException, SkipPageException {
     Dispatcher.include(
         servletContext,
         JSPX_TARGET,
