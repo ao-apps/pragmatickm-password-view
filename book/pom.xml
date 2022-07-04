@@ -36,15 +36,15 @@ along with pragmatickm-password-view.  If not, see <https://www.gnu.org/licenses
     <module.name>com.pragmatickm.password.view.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>pragmatickm-password-view</documented.artifactId>
-    <documented.name>PragmaticKM Password View²</documented.name>
+    <documented.name>PragmaticKM Password View</documented.name>
     <documented.description>SemanticCMS view of all passwords in the current page and all children.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>PragmaticKM Password View² Book</name>
+  <name>PragmaticKM Password View Book</name>
   <url>https://pragmatickm.com/password/view/</url>
-  <description>Documentation for PragmaticKM Password View² in SemanticCMS format.</description>
+  <description>Documentation for PragmaticKM Password View in SemanticCMS format.</description>
   <inceptionYear>2013</inceptionYear>
 
   <licenses>
