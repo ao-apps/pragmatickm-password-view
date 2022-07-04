@@ -10,12 +10,16 @@
 
 # Significant manual code formatting clean-up…
 50842f619fd2750dc77550dd6e3c21d8ed5d0af6
+ac2265c089c7a997cb891c82a4ba1f7c617e626f
 
 # Added missing spaces after comma
 e73ff01d05de0c008b5c3ef3fdc20808da9403bd
+4db98796c1c3e85d236bc9f5a0088a64f9cb5165
 
 # Performed automatic source code clean-up with rewrite-maven-plugin
 95bb7a9faa62336f197a872503d482e5a512d85b
+9e79959d04e4b9bad346450b2d9c856df55aff79
 
 # Performed manual checkstyle clean-up
 9e71543d6e80305c2460a6eedc5b5b9edd3fd543
+e1df1b45b2bfd5952223acec747c2e09311fcb57
