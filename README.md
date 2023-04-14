@@ -23,7 +23,7 @@
 * [Project Home](https://pragmatickm.com/password/view/)
 * [Changelog](https://pragmatickm.com/password/view/changelog)
 * [API Docs](https://pragmatickm.com/password/view/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.pragmatickm&q=a%3Apragmatickm-password-view)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.pragmatickm/pragmatickm-password-view)
 * [GitHub](https://github.com/ao-apps/pragmatickm-password-view)
 
 ## Contact Us
