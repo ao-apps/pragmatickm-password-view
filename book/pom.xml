@@ -41,6 +41,9 @@ along with pragmatickm-password-view.  If not, see <https://www.gnu.org/licenses
     <documented.artifactId>pragmatickm-password-view</documented.artifactId>
     <documented.name>PragmaticKM Password View</documented.name>
     <documented.description>SemanticCMS view of all passwords in the current page and all children.</documented.description>
+    <javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://pragmatickm.com/">PragmaticKM</a>
+/ <a target="${javadoc.target}" href="https://pragmatickm.com/password/">Password</a>
+/ <a target="${javadoc.target}" href="${project.url}">View</a>]]></javadoc.breadcrumbs>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
