@@ -174,11 +174,6 @@ along with pragmatickm-password-view.  If not, see <https://www.gnu.org/licenses
                       <outputDirectory>${project.build.directory}/offlineLinks/com.semanticcms/semanticcms-core-servlet</outputDirectory>
                     </artifactItem>
                     <!-- JSP Only: <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId><classifier>javadoc</classifier> -->
-                    <artifactItem>
-                      <groupId>com.github.spotbugs</groupId><artifactId>spotbugs-annotations</artifactId><classifier>javadoc</classifier>
-                      <includes>element-list, package-list</includes>
-                      <outputDirectory>${project.build.directory}/offlineLinks/com.github.spotbugs/spotbugs-annotations</outputDirectory>
-                    </artifactItem>
                   </artifactItems>
                 </configuration>
               </execution>
@@ -214,10 +209,6 @@ along with pragmatickm-password-view.  If not, see <https://www.gnu.org/licenses
                   <location>${project.build.directory}/offlineLinks/com.semanticcms/semanticcms-core-servlet</location>
                 </offlineLink>
                 <!-- JSP Only: <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId><classifier>javadoc</classifier> -->
-                <offlineLink>
-                  <url>https://javadoc.io/doc/com.github.spotbugs/spotbugs-annotations/${com.github.spotbugs:spotbugs-annotations:jar.version}/</url>
-                  <location>${project.build.directory}/offlineLinks/com.github.spotbugs/spotbugs-annotations</location>
-                </offlineLink>
               </offlineLinks>
             </configuration>
           </plugin>
@@ -301,9 +292,6 @@ along with pragmatickm-password-view.  If not, see <https://www.gnu.org/licenses
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId><version>1.16.0${POST-SNAPSHOT}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.github.spotbugs</groupId><artifactId>spotbugs-annotations</artifactId><version>4.9.2</version>
       </dependency>
       <!-- Transitive -->
       <dependency>
@@ -428,10 +416,6 @@ along with pragmatickm-password-view.  If not, see <https://www.gnu.org/licenses
     </dependency>
     <dependency>
       <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId><artifactId>spotbugs-annotations</artifactId>
-      <optional>true</optional>
     </dependency>
   </dependencies>
 </project>

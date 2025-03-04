@@ -1,6 +1,6 @@
 /*
  * pragmatickm-password-view - SemanticCMS view of all passwords in the current page and all children.
- * Copyright (C) 2016, 2017, 2020, 2021, 2022, 2023  AO Industries, Inc.
+ * Copyright (C) 2016, 2017, 2020, 2021, 2022, 2023, 2025  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -30,7 +30,6 @@ import com.semanticcms.core.model.Page;
 import com.semanticcms.core.servlet.PageUtils;
 import com.semanticcms.core.servlet.SemanticCMS;
 import com.semanticcms.core.servlet.View;
-import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import java.io.IOException;
 import java.util.Collections;
 import javax.servlet.ServletContext;
@@ -45,7 +44,6 @@ import javax.servlet.jsp.SkipPageException;
 /**
  * View of all passwords in the current page and all children.
  */
-@SuppressFBWarnings("PI_DO_NOT_REUSE_PUBLIC_IDENTIFIERS_CLASS_NAMES")
 public final class PasswordView extends View {
 
   public static final String NAME = "passwords";
