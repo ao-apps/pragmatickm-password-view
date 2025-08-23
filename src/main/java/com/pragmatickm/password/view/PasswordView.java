@@ -106,7 +106,7 @@ public final class PasswordView extends View {
    */
   @Override
   public boolean getAllowRobots(ServletContext servletContext, HttpServletRequest request, HttpServletResponse response, Page page) {
-    //return !page.filterElements(Password.class).isEmpty();
+    // return !page.filterElements(Password.class).isEmpty();
     return false;
   }
 
