@@ -122,10 +122,6 @@ along with pragmatickm-password-view.  If not, see <https://www.gnu.org/licenses
             <dependency>com.pragmatickm:pragmatickm-password-taglib</dependency>
             <dependency>com.semanticcms:semanticcms-core-taglib</dependency>
           </usedDependencies>
-          <ignoredDependencies>
-            <!-- No "module-info.java" in some release builds -->
-            <dependency>com.aoapps:ao-collections</dependency>
-          </ignoredDependencies>
         </configuration>
       </plugin>
     </plugins>
