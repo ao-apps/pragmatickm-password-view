@@ -51,7 +51,7 @@ public final class PasswordView extends View {
   private static final String JSPX_TARGET = "/pragmatickm-password-view/view.inc.jspx";
 
   /**
-   * Registers the "{@link #NAME}" view in {@link SemanticCMS}.
+   * Registers the "{@link PasswordView#NAME}" view in {@link SemanticCMS}.
    */
   @WebListener("Registers the \"" + NAME + "\" view in SemanticCMS.")
   public static class Initializer implements ServletContextListener {
