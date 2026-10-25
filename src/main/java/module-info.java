@@ -21,7 +21,6 @@
  * along with pragmatickm-password-view.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.pragmatickm.password.view {
-  exports com.pragmatickm.password.view;
   // Direct
   requires com.aoapps.html.servlet; // <groupId>com.aoapps</groupId><artifactId>ao-fluent-html-servlet</artifactId>
   requires com.aoapps.servlet.util; // <groupId>com.aoapps</groupId><artifactId>ao-servlet-util</artifactId>
@@ -33,4 +32,6 @@ module com.pragmatickm.password.view {
   requires com.semanticcms.core.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-model</artifactId>
   requires com.semanticcms.core.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId>
   requires com.semanticcms.core.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId>
+
+  exports com.pragmatickm.password.view;
 }
